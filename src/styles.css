@@ -1,3 +1,25 @@
-h1 {
+.hero {
+  background-color: #e6f8f7;
+  padding: 110px 0px;
+}
+
+.hero h1,
+h4 {
   text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.hero h4 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.hero .btn {
+  margin: 0 auto;
+  display: block;
+  font-size: 24px;
+  max-width: 160px;
 }
