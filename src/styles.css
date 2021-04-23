@@ -36,3 +36,18 @@ p {
   font-size: 20px;
   text-align: center;
 }
+
+.social-links {
+  background-color: #e6f8f7;
+  padding-top: 30px;
+}
+
+i {
+  font-size: 40px;
+  color: #1c2024;
+}
+
+a {
+  color: #1c2024;
+  text-decoration: none;
+}
