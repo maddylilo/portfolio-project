@@ -96,6 +96,26 @@ h2 {
   text-decoration: none;
 }
 
+@media (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .hero .btn {
+    font-size: 18px;
+    max-width: 120px;
+  }
+  .about-content img {
+    max-width: 80%;
+  }
+  .about-content p {
+    font-size: 18px;
+    margin: 35px;
+  }
+}
+
 /* .hero {
   background-color: #e6f8f7;
   padding: 110px 0px;
