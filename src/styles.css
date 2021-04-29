@@ -1,4 +1,56 @@
+:root {
+  --primary-font: "Prata", serif;
+  --secondary-font: "Assistant", sans-serif;
+}
+
+h1,
+h2,
+h2,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+h1 {
+  color: #212629;
+  font-family: var(--primary-font);
+  font-size: 90px;
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+}
+
 .hero {
+  background-color: #e6f8f7;
+  padding: 110px 0px;
+}
+
+.hero .btn {
+  display: block;
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  margin: 0 auto;
+  max-width: 160px;
+}
+
+.homepage-content h3 {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.homepage-content p {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  text-align: center;
+}
+
+/* .hero {
   background-color: #e6f8f7;
   padding: 110px 0px;
 }
@@ -10,6 +62,7 @@ h4 {
 
 h1 {
   font-size: 80px;
+  font-family: "Prata", serif;
 }
 
 .hero h4 {
@@ -51,4 +104,4 @@ i {
 a {
   color: #1c2024;
   text-decoration: none;
-}
+} */
