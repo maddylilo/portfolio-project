@@ -1,6 +1,7 @@
 :root {
   --primary-font: "Prata", serif;
   --secondary-font: "Assistant", sans-serif;
+  --text-color: #212629;
 }
 
 h1,
@@ -13,7 +14,7 @@ h6 {
 }
 
 h1 {
-  color: #212629;
+  color: var(--text-color);
   font-family: var(--primary-font);
   font-size: 90px;
   margin-top: 100px;
@@ -60,6 +61,39 @@ h2 {
   font-family: var(--secondary-font);
   font-size: 24px;
   margin-bottom: 20px;
+}
+
+.card .card-title {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.card .card-text {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact-content .link-column {
+  margin-top: 200px;
+}
+
+.contact-content h2 {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.contact-content a {
+  color: var(--text-color);
+  display: block;
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  margin-bottom: 35px;
+  text-decoration: none;
 }
 
 /* .hero {
