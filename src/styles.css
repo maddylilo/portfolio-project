@@ -33,6 +33,11 @@ nav h4 {
   font-family: var(--secondary-font);
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
 nav li {
   display: inline;
   font-family: var(--secondary-font);
@@ -47,7 +52,9 @@ nav a {
 }
 
 .hero {
-  background-color: #e6f8f7;
+  /* background-color: #e6f8f7; */
+  /* background-color: #b7e4c7; */
+  background-image: linear-gradient(to top, #b7e4c7 0%, #ffffff 100%);
   padding: 110px 0px;
 }
 
@@ -70,6 +77,23 @@ nav a {
   font-family: var(--secondary-font);
   font-size: 18px;
   text-align: center;
+}
+
+.email-link a {
+  color: var(--text-color);
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.social-links a {
+  color: var(--text-color);
+  font-size: 36px;
+  margin: 20px 15px;
+  text-decoration: none;
+  background: #b7e4c7;
+  padding: 0px 10px;
+  border-radius: 50%;
 }
 
 .about-content img {
@@ -136,6 +160,8 @@ nav a {
   }
   nav a {
     font-size: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
   }
   .hero {
     padding: 80px 0px;
