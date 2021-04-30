@@ -2,6 +2,7 @@
   --primary-font: "Prata", serif;
   --secondary-font: "Assistant", sans-serif;
   --text-color: #212629;
+  --primary-color: #b7e4c7;
 }
 
 h1,
@@ -17,7 +18,7 @@ h1 {
   color: var(--text-color);
   font-family: var(--primary-font);
   font-size: 90px;
-  margin-top: 100px;
+  margin: 80px 0px 70px;
 }
 
 h2 {
@@ -84,16 +85,27 @@ nav a {
   font-family: var(--secondary-font);
   font-size: 36px;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.email-link a:hover {
+  color: var(--primary-color);
 }
 
 .social-links a {
-  color: var(--text-color);
+  background: var(--primary-color);
+  border-radius: 50%;
+  color: white;
   font-size: 36px;
   margin: 20px 15px;
-  text-decoration: none;
-  background: #b7e4c7;
   padding: 0px 10px;
-  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  background: none;
+  color: var(--primary-color);
 }
 
 .about-content img {
@@ -177,6 +189,9 @@ nav a {
     font-size: 18px;
     margin: 35px;
   }
+  .about-content br {
+    display: none;
+  }
   .contact-content h2 {
     font-size: 24px;
   }
@@ -184,14 +199,3 @@ nav a {
     font-size: 24px;
   }
 }
-
-/* .social-links {
-  background-color: #e6f8f7;
-  padding-top: 30px;
-  text-align: center;
-}
-
-i {
-  font-size: 40px;
-  color: #1c2024;
-}*/
