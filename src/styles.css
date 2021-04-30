@@ -25,6 +25,27 @@ h2 {
   font-size: 36px;
 }
 
+nav {
+  padding-top: 15px;
+}
+
+nav h4 {
+  font-family: var(--secondary-font);
+}
+
+nav li {
+  display: inline;
+  font-family: var(--secondary-font);
+  list-style: none;
+}
+
+nav a {
+  color: var(--text-color);
+  font-size: 18px;
+  margin-left: 18px;
+  text-decoration: none;
+}
+
 .hero {
   background-color: #e6f8f7;
   padding: 110px 0px;
@@ -105,9 +126,19 @@ h2 {
 @media (max-width: 700px) {
   h1 {
     font-size: 40px;
+    margin-top: 40px;
   }
   h2 {
     font-size: 24px;
+  }
+  nav h4 {
+    display: none;
+  }
+  nav a {
+    font-size: 18px;
+  }
+  .hero {
+    padding: 80px 0px;
   }
   .hero .btn {
     font-size: 18px;
@@ -137,9 +168,4 @@ h2 {
 i {
   font-size: 40px;
   color: #1c2024;
-}
-
-a {
-  color: #1c2024;
-  text-decoration: none;
-} */
+}*/
