@@ -56,15 +56,32 @@ nav a {
   /* background-color: #e6f8f7; */
   /* background-color: #b7e4c7; */
   background-image: linear-gradient(to top, #b7e4c7 0%, #ffffff 100%);
-  padding: 110px 0px;
+  /* padding: 110px 0px; */
+  height: 570px;
+}
+
+.hero h1 {
+  margin: 200px 0 25px 0;
+}
+
+.hero h2 {
+  margin-bottom: 80px;
 }
 
 .hero .btn {
-  display: block;
+  color: var(--text-color);
+  background: var(--primary-color);
+  border: none;
   font-family: var(--secondary-font);
   font-size: 24px;
-  margin: 0 auto;
-  max-width: 160px;
+  margin: 0 30px;
+  transition: all 150ms ease-in-out;
+  width: 150px;
+}
+
+.hero .btn:hover {
+  background: var(--text-color);
+  color: white;
 }
 
 .homepage-content h3 {
@@ -106,6 +123,11 @@ nav a {
 .social-links a:hover {
   background: none;
   color: var(--primary-color);
+}
+
+.credit {
+  font-family: var(--secondary-font);
+  text-align: center;
 }
 
 .about-content img {
@@ -176,7 +198,8 @@ nav a {
     margin-right: 12px;
   }
   .hero {
-    padding: 80px 0px;
+    /* padding: 80px 0px; */
+    height: 727px;
   }
   .hero .btn {
     font-size: 18px;
