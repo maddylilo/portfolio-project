@@ -18,7 +18,7 @@ h1 {
   color: var(--text-color);
   font-family: var(--primary-font);
   font-size: 90px;
-  margin: 80px 0px 70px;
+  margin: 80px 0px 50px;
 }
 
 h2 {
@@ -162,6 +162,11 @@ nav a {
   margin-bottom: 35px;
   text-align: center;
   text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.contact-content a:hover {
+  color: var(--primary-color);
 }
 
 .nav-links {
