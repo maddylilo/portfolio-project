@@ -97,18 +97,6 @@ nav a {
   text-align: center;
 }
 
-.email-link a {
-  color: var(--text-color);
-  font-family: var(--secondary-font);
-  font-size: 36px;
-  text-decoration: none;
-  transition: all 150ms ease-in-out;
-}
-
-.email-link a:hover {
-  color: var(--primary-color);
-}
-
 .social-links a {
   background: var(--primary-color);
   border-radius: 50%;
